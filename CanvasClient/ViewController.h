@@ -9,7 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *happyGesture;
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *excitedGesture;
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *tongueGesture;
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *deadGesture;
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *sadGesture;
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *winkGesture;
 
-
+@property (strong, nonatomic) IBOutlet UIPanGestureRecognizer *onTrayPanGesture;
+@property CGPoint trayOriginalCenter;
+@property (weak, nonatomic) IBOutlet UIView *trayView;
 @end
 

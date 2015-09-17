@@ -14,6 +14,8 @@
 		5BC402801BAB443E00CDB80B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC4027F1BAB443E00CDB80B /* Images.xcassets */; };
 		5BC402831BAB443E00CDB80B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC402811BAB443E00CDB80B /* LaunchScreen.xib */; };
 		5BC4028F1BAB443E00CDB80B /* CanvasClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC4028E1BAB443E00CDB80B /* CanvasClientTests.m */; };
+		5BC4029B1BAB459D00CDB80B /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC402991BAB459D00CDB80B /* CanvasViewController.m */; };
+		5BC4029C1BAB459D00CDB80B /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BC4029A1BAB459D00CDB80B /* CanvasViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		5BC402881BAB443E00CDB80B /* CanvasClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC4028D1BAB443E00CDB80B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BC4028E1BAB443E00CDB80B /* CanvasClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasClientTests.m; sourceTree = "<group>"; };
+		5BC402981BAB459D00CDB80B /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		5BC402991BAB459D00CDB80B /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		5BC4029A1BAB459D00CDB80B /* CanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,9 @@
 				5BC4027F1BAB443E00CDB80B /* Images.xcassets */,
 				5BC402811BAB443E00CDB80B /* LaunchScreen.xib */,
 				5BC402721BAB443E00CDB80B /* Supporting Files */,
+				5BC402981BAB459D00CDB80B /* CanvasViewController.h */,
+				5BC402991BAB459D00CDB80B /* CanvasViewController.m */,
+				5BC4029A1BAB459D00CDB80B /* CanvasViewController.xib */,
 			);
 			path = CanvasClient;
 			sourceTree = "<group>";
@@ -199,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC4029C1BAB459D00CDB80B /* CanvasViewController.xib in Resources */,
 				5BC4027E1BAB443E00CDB80B /* Main.storyboard in Resources */,
 				5BC402831BAB443E00CDB80B /* LaunchScreen.xib in Resources */,
 				5BC402801BAB443E00CDB80B /* Images.xcassets in Resources */,
@@ -219,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC4029B1BAB459D00CDB80B /* CanvasViewController.m in Sources */,
 				5BC4027B1BAB443E00CDB80B /* ViewController.m in Sources */,
 				5BC402781BAB443E00CDB80B /* AppDelegate.m in Sources */,
 				5BC402751BAB443E00CDB80B /* main.m in Sources */,
